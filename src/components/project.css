@@ -1,0 +1,126 @@
+/* General Styles */
+.project-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background for content */
+  padding: 20px;
+  position: relative; /* Ensures content stays on top */
+  z-index: 1; /* Keeps content above the background */
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow for a polished look */
+  margin: 40px auto; /* Center the container */
+  max-width: 1200px; 
+}
+
+/* Full Page Background */
+.page-background {
+  position: fixed; /* Fixes the background to cover the entire page */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.7), /* Dark overlay for better contrast */
+      rgba(0, 0, 0, 0.7)
+  ),
+  url('https://images.unsplash.com/photo-1568605114967-8130f3a36994') no-repeat center center;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Keeps background fixed while scrolling */
+  z-index: -1; /* Ensures the background is behind the content */
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+/* Service Details Page */
+.service-details-container {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Service Images Section */
+.service-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.service-image {
+  width: 30%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Location Info Section */
+.location-info {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #444;
+}
+
+.location-title {
+  font-weight: bold;
+}
+
+.location-description {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Section Titles */
+.section-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  margin-top: 50px;
+}
+
+.review-card {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #fff;
+  text-align: left;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #444;
+}
+
+.review-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.rating {
+  color: gold;
+  font-size: 18px;
+}
+
+/* Logo Styling */
+.logo img {
+  width: 100px; /* Adjust this based on your logo size */
+  height: auto;
+}

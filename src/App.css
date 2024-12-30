@@ -1,0 +1,58 @@
+/* Apply no margin and set a default font */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Container for centering content */
+.main-content {
+  display: flex;               /* Use Flexbox */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Center vertically */
+  height: calc(100vh - 160px);  /* Make content height adjust (subtract header/footer height) */
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* Ensure header and footer have fixed heights */
+header {
+  height: 80px;  /* Adjust header height */
+  background-color: #f87575;
+  color: rgb(252, 252, 252);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Example content for Home page */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  color: #333;
+}
+
+.home-container p {
+  font-size: 1.5rem;
+  color: #666;
+}

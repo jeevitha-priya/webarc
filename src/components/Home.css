@@ -1,0 +1,99 @@
+/* Home Container */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Navigation Bar */
+.navbar {
+  position: absolute; /* Navbar sits on top of the slideshow */
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent; /* Make the navbar background transparent */
+  z-index: 10; /* Ensures the navbar is above the slideshow */
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff; /* White text for better visibility */
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+/* Welcome Section with Slideshow */
+.welcome-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 1; /* Ensures slideshow is behind navbar and text */
+}
+
+/* Slideshow Image */
+.slideshow-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0; /* Behind all text */
+}
+
+.slideshow-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay for Text */
+.overlay {
+  position: relative;
+  z-index: 5; /* Overlay text above the slideshow */
+  text-align: center;
+  color: #fff; /* White color for better visibility */
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.5); /* Transparent dark background for better text contrast */
+  border-radius: 10px;
+}
+
+/* Title and Subtitle */
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 0;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Shadow for better visibility */
+}
+
+.welcome-note {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #ddd; /* Light gray for subtle contrast */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Optional: Button to Pause/Play Slideshow */
+.play-pause-button {
+  position: relative;
+  margin-top: 30px;
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.play-pause-button:hover {
+  background: #555;
+}

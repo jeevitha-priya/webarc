@@ -1,0 +1,30 @@
+nav {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    /* Centers vertically */
+    height: 60px;           /* Adjust the height as needed */
+    background-color: #f8f9fa; /* Optional: Add a background color */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px; /* Adjust the spacing between links */
+  }
+  
+  nav li {
+    font-size: 18px; /* Adjust font size as needed */
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: #333; /* Adjust link color */
+    transition: color 0.3s ease;
+  }
+  
+  nav li a:hover {
+    color: #007bff; /* Adjust hover color */
+  }
+  

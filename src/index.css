@@ -1,0 +1,14 @@
+/* src/index.css */
+nav ul {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  gap: 10px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #ddd;
+}
