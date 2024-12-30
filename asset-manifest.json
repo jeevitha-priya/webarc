@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/webarc/static/css/main.f10a5beb.css",
+    "main.js": "/webarc/static/js/main.da986729.js",
+    "static/media/work2.png": "/webarc/static/media/work2.d06328a72fd9e37864f0.png",
+    "static/media/work3.png": "/webarc/static/media/work3.d45ab150c6ff4c903225.png",
+    "static/media/work1.png": "/webarc/static/media/work1.04ba3f95edaff333777a.png",
+    "index.html": "/webarc/index.html",
+    "main.f10a5beb.css.map": "/webarc/static/css/main.f10a5beb.css.map",
+    "main.da986729.js.map": "/webarc/static/js/main.da986729.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f10a5beb.css",
+    "static/js/main.da986729.js"
+  ]
+}
